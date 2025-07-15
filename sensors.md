@@ -1,4 +1,7 @@
-## Сенсоры
+# Сенсоры
+
+[На главную](index.md)
+
 Камеры глубины
 * Microsoft Kinect (XBox 360, XBox One): RGB, infrared, structured light or time of flight
 * Asus Xtion
