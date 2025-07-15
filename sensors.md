@@ -2,6 +2,11 @@
 
 [На главную](index.md)
 
+Технологии получения трёхмерных снимков
+* структурированный свет (structured light);
+* время отражения (time-of-flight, ToF);
+* LIDAR .
+
 Камеры глубины
 * Microsoft Kinect (XBox 360, XBox One): RGB, infrared, structured light or time of flight
 * Asus Xtion
