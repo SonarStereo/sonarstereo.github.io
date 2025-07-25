@@ -11,3 +11,7 @@
 [Estimated Depth Map Helps Image Classification](https://github.com/ethanhe42/Estimated-Depth-Map-Helps-Image-Classification)
 Интересно, как же карта глубины помогает классификации изображений. И какая карта глубины берётся - нейросетевая или 
 полученная с датчиков
+
+## Лазерное сканирование
+[Технологии сканирования](https://www.coherent.com/news/glossary/laser-scanning)
+Гальванический сканер, вращающееся многоугольное зеркало и акустико-оптическая система
