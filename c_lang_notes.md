@@ -1,14 +1,16 @@
 # Заметки по языку Си
 
-## switch
-синтаксис
-switch ( expression ) statement		
-
+## Функция main
 ~~~c
 int main()
 {
   return 0;
 }
 ~~~
+
+## switch
+синтаксис: 
+switch ( expression ) statement		
+
 ## ссылки
 https://en.cppreference.com/w/c/language.html
