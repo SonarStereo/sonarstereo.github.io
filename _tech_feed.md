@@ -1,5 +1,12 @@
 
 # Техноблог
+## ИИ инструменты: N8N, Ollama
+n8n: flexible AI workflow automation
+[https://n8n.io/](https://n8n.io/)
+
+ollama: chat & build with open models
+[https://ollama.com/](https://ollama.com/)
+
 ## Роботы и квантовые вычисления
 
 📅 29.08.2025
