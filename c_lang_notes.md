@@ -46,5 +46,7 @@ switch ( expression ) statement
 
 выражение case 1: - метка
 
+пишут, что switch может быть без фигурных скобок; но это не работает, т.к. break не может быть вне цикла, case и deafault не может быть вне switch
+
 ## ссылки
 https://en.cppreference.com/w/c/language.html
