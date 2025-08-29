@@ -27,7 +27,7 @@ AA:
 a label can only be part of a statement and a declaration is not a statement
 
 А вот так можно:
-~~~с
+~~~c
 int main()
 {
         goto AA;
