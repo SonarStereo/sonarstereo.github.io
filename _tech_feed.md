@@ -1,6 +1,25 @@
 
 # Техноблог
 
+## Прямая и обратная кинематика
+
+📅 30.08.2025
+
+🛰️ Термины:
+* The **forward kinematics** (FK) problem uses the kinematic equations to determine the pose given
+the joint angles and bones lengths.
+* The **inverse kinematics** (IK) problem computes the joint angles for a desired pose
+of the articulated body. 
+
+📚 Статья про кинематику плюс ICP:
+[ICPIK: Inverse Kinematics based Articulated-ICP](https://openaccess.thecvf.com/content_cvpr_workshops_2015/W15/papers/Fleishman_ICPIK_Inverse_Kinematics_2015_CVPR_paper.pdf)
+
+In this paper we address the problem of matching a kinematic model of an articulated (составной) body to a point cloud ob
+tained from a consumer grade 3D sensor. Используют **ICP**. 
+
+📚 Для начала хорошо почитать вот это
+[Инверсная кинематика в двухмерном пространстве](https://habr.com/ru/articles/358798/)
+
 ##  Arjan Westerdiep о вокселях
 
 📅 30.08.2025
