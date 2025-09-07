@@ -35,6 +35,22 @@ Hello world!
 * 2018 - C17
 * 2023 - C23 
 
+## Справочник man
+1. Executable programs or shell commands (e.g., ls, man)
+2. System calls (functions provided by the kernel)
+3. Library functions (e.g., C standard library functions like printf)
+4. Special files (devices, etc.)
+5. File formats and conventions (e.g., /etc/passwd)
+6. Games
+7. Miscellaneous (e.g., man-pages, groff)
+8. System administration commands (e.g., mount, ifconfig)
+
+```console
+user:~$ man 3 printf
+user:~$ man 1 printf
+user:~$ printf "Hello\n"
+```
+
 ## Заголовочные файлы
 ~~~c
 #include <stdio.h>
@@ -98,6 +114,26 @@ for (initializationStatement; testExpression; updateStatement) {
 * initializationStatement - выполняется один раз, перед выполнением всех итераций;
 * testExpression - выполняется перед каждой итерацией;
 * updateStatement - выполняется после каждой итерации.
+
+## Функция scanf()
+~~~c
+#include <stdio.h>
+
+int main() {
+    int number;
+    int result = scanf("%d", &number);
+
+    if (result == 1) {
+        printf("Successfully read an integer: %d\n", number);
+    } else if (result == 0) {
+        printf("No valid input matched\n");
+    } else if (result == EOF) {
+        printf("Input stream error\n");
+    }
+
+    return 0;
+}
+~~~
 
 ## Посимвольный ввод-вывод (getchar/putchar)
 ~~~c
