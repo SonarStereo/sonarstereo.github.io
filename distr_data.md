@@ -1,5 +1,11 @@
 # Распределённые файловые системы GFS, HDFS
 
+# Распределённые ФС
+
+HDFS Architecture and Scalability 
+(блог Мелани Квон, есть сравнение с GFS)
+
+https://melaniemkwon.github.io/blog/2018/02/04/bigdata-scalingdistributedfilesystems.html
 
 # NFS
 
