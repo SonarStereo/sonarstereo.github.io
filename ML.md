@@ -1,11 +1,24 @@
-# RAG
+# Машинное обучение 
+
+## Графовые нейросети
+
+* [Introduction to Graph Neural Networks : A Starting Point for Machine Learning Engineers](https://arxiv.org/pdf/2412.19419)
+* [Graph Neural Networks Demystified](https://ignitarium.com/graph-neural-networks-demystified-how-they-work-their-applications-and-essential-tools/)
+* [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596)
+
+Презентации
+* [Graph Neural Networks (Италия)](https://disi.unitn.it/~passerini/teaching/2021-2022/AdvancedTopicsInMachineLearning/slides/GNN/talk.pdf)
+* [Graph Neural Networks (Дания)](https://www.nbi.dk/~petersen/Teaching/ML2024/Week3/GNNs_DanielMurnane.pdf)
+   
+
+## RAG
 RAG (Retrieval Augmented Generation) — простое и понятное объяснение
 
 излагается основная схема
 
 https://habr.com/ru/articles/779526/
 
-# Word2Vec, Doc2Vec
+## Word2Vec, Doc2Vec
 
 Word2vec Вики
 
