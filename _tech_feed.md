@@ -1,6 +1,16 @@
 
 # Техноблог
 
+## Курс по проективной геометрии и SLAM
+
+[Vorlesung Computer Vision](https://www.ismll.uni-hildesheim.de/lehre/cv-17s/script/)
+
+  	01. Projective Geometry	
+   	02. Projective Geometry in 3D		
+   	03. Estimating 2D Transformations	
+   	04. Interest Points	
+   	05. Simultaneous Localization and Mapping 
+    
 ## Прямая и обратная кинематика
 
 📅 30.08.2025
