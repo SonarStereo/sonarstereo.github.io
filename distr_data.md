@@ -1,6 +1,20 @@
-# Распределённые файловые системы GFS, HDFS
+# О распределённых системах  
 
-# Распределённые ФС
+Mark Cavage
+
+There's Just No Getting around It: You're Building a Distributed System
+
+https://queue.acm.org/detail.cfm?id=2482856
+
+Курс по распределённым системам университета Лондона (выборы, часы, ...)
+https://www.brunel.ac.uk/~eestppk/EE5616/
+
+Concepts and Technologies for Distributed Systems and Big Data Processing 
+(модель акторов, HDFS, Hadoop, MapReduce, Spark) 
+https://stg-tud.github.io/ctbd/2017/
+
+
+# Распределённые файловые системы GFS, HDFS
 
 HDFS Architecture and Scalability 
 (блог Мелани Квон, есть сравнение с GFS)
