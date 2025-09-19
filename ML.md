@@ -5,6 +5,7 @@
 * [Introduction to Graph Neural Networks : A Starting Point for Machine Learning Engineers](https://arxiv.org/pdf/2412.19419)
 * [Graph Neural Networks Demystified](https://ignitarium.com/graph-neural-networks-demystified-how-they-work-their-applications-and-essential-tools/)
 * [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596)
+* [Graph Neural Networks: Introduction, some theoretical properties](https://nkeriven.github.io/files/21_01_tuto_gnn.pdf)
 
 Презентации
 * [Graph Neural Networks (Италия)](https://disi.unitn.it/~passerini/teaching/2021-2022/AdvancedTopicsInMachineLearning/slides/GNN/talk.pdf)
