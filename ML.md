@@ -5,11 +5,11 @@
 * [Introduction to Graph Neural Networks : A Starting Point for Machine Learning Engineers](https://arxiv.org/pdf/2412.19419)
 * [Graph Neural Networks Demystified](https://ignitarium.com/graph-neural-networks-demystified-how-they-work-their-applications-and-essential-tools/)
 * [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596)
-* [Graph Neural Networks: Introduction, some theoretical properties](https://nkeriven.github.io/files/21_01_tuto_gnn.pdf)
 
 Презентации
 * [Graph Neural Networks (Италия)](https://disi.unitn.it/~passerini/teaching/2021-2022/AdvancedTopicsInMachineLearning/slides/GNN/talk.pdf)
 * [Graph Neural Networks (Дания)](https://www.nbi.dk/~petersen/Teaching/ML2024/Week3/GNNs_DanielMurnane.pdf)
+* [Graph Neural Networks: Introduction, some theoretical properties](https://nkeriven.github.io/files/21_01_tuto_gnn.pdf)
    
 
 ## RAG
@@ -47,3 +47,8 @@ https://github.com/Troyanovsky/Local-LLM-Comparison-Colab-UI
 
 https://indico.in2p3.fr/event/35206/contributions/149665/attachments/90679/137775/LLM.pdf
 https://github.com/Troyanovsky/Local-LLM-Comparison-Colab-UI
+
+## BERT
+* [BERT document embedding](https://stackoverflow.com/questions/63209960/bert-document-embedding)
+* [How to get [CLS] embeddings from BertForTokenClassification model](https://discuss.huggingface.co/t/how-to-get-cls-embeddings-from-bertfortokenclassification-model/9276)
+* [BERT, ELMO и Ко в картинках (как в NLP пришло трансферное обучение)](https://habr.com/ru/articles/487358/)
