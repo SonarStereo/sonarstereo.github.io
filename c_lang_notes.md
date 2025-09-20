@@ -203,6 +203,12 @@ int (* ptr1)[4] = &a; // можно
 int (* ptr2)[4] = &b; // нельзя
 ~~~
 
+Как узнать количество элементов в массиве:
+~~~c
+int arr[] = { 12, 12, 14, 90, 14, 14, 14 };
+int n = sizeof(arr) / sizeof(arr[0]);
+~~~
+
 ## Указатели 
 
 Адресная арифметика
@@ -210,6 +216,68 @@ int (* ptr2)[4] = &b; // нельзя
 * ptr2 - ptr1 - количество элементов соотв типа между указателями 
 * складывать нельзя
 * можно неявно приводить 0 к любому указателю
+
+Указатель на константу
+~~~c
+const int a = 10;
+const int* ptr = &a; 
+*ptr = 5; // нельзя
+ptr++;    // можно
+~~~
+
+Константный указатель
+~~~c
+int a = 10;
+int *const ptr = &a;  
+*ptr = 5; // можно
+ptr++;    // нельзя
+~~~
+
+Указатель на функцию
+общий синтаксис
+~~~c
+return_type (*pointer_name)(parameter_types);
+~~~
+примеры указателей
+~~~c
+int (*fptr)(int, int); // указатель на функцию
+int (*farr[])(int, int) = {add, sub, mul, divd}; // массив указателей
+~~~
+
+указатель на функцию в качестве аргумента 
+~~~c
+// A simple addition function
+int add(int a, int b) {
+    return a + b;
+}
+
+// A simple subtraction function
+int subtract(int a, int b) {
+    return a - b;
+}
+
+void calc(int a, int b, int (*op)(int, int)) {
+    printf("%d\n", op(a, b));
+}
+
+int main() {
+  
+    // Passing different 
+    // functions to 'calc'
+    calc(10, 5, add);
+  	calc(10, 5, subtract);
+    return 0;
+}
+~~~
+
+## Битовые операции
+
+Обмен значений
+~~~c
+c = a^b;
+a = a^c;
+b = b^c;
+~~~
 
 ## Старшинство операций (precedence & associativity)
 
