@@ -1,6 +1,23 @@
 
 # Техноблог
 
+## RANSAC и варианты
+
+[MLESAC: A new robust estimator with application
+ to estimating image geometry](https://www.robots.ox.ac.uk/~vgg/publications/2000/Torr00/torr00.pdf)
+
+[RANSAC Traditional Approaches](https://cmp.felk.cvut.cz/cvpr2020-ransac-tutorial/presentations/RANSAC-CVPR20-Chum.pdf) 
+
+[Random Sample Consensus Explained](https://www.baeldung.com/cs/ransac)
+
+
+
+## Животные и восприятие окружающего
+
+4 необычных органа чувств в природе, которых нет у человека
+
+https://dzen.ru/a/Zydjl7KvZDxs99jw
+
 ## Курс по проективной геометрии и SLAM
 
 [Vorlesung Computer Vision](https://www.ismll.uni-hildesheim.de/lehre/cv-17s/script/)
