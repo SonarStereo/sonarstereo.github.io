@@ -2,6 +2,9 @@
 
 ## Графовые нейросети
 
+Вот это, наверно лучшее введение:
+[Deep Learning on Graphs](https://yaoma24.github.io/dlg_book/dlg_book.pdf)
+
 * [Introduction to Graph Neural Networks : A Starting Point for Machine Learning Engineers](https://arxiv.org/pdf/2412.19419)
 * [Graph Neural Networks Demystified](https://ignitarium.com/graph-neural-networks-demystified-how-they-work-their-applications-and-essential-tools/)
 * [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596)
