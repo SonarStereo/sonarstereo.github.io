@@ -1,6 +1,18 @@
+# Характеристики распр систем (масштабируемость, ...)
+
+[О прозрачности](https://courses.ece.ucsb.edu/ECE151/151_S14Moser/Files/HW1-sol.pdf)
+
+Из блога  All Things Distributed
+[Performance and Scalability](https://www.allthingsdistributed.com/2006/04/performance_and_scalability.html)
+[A Word on Scalability](https://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html)
+
+[Все еще измеряете latency в персентилях?](https://habr.com/ru/articles/590287/)
+
+[SLA is the new CAP](https://mikemybytes.com/2021/07/20/sla-is-the-new-cap/)
+
+[Мониторинг начинается с метрик, или Как не сделать из алертов белый шум](https://www.itsumma.ru/blog/alerts)
+
 # О распределённых системах  
-
-
 
 1. *Mark Cavage* There's Just No Getting around It: You're Building a Distributed System
 https://queue.acm.org/detail.cfm?id=2482856
@@ -18,9 +30,10 @@ https://stormatics.tech/blogs/challenges-with-network-latency-in-highly-availabl
 5. Theoretical Analysis of Distributed Systems and Their Scalability
    https://www.clausiuspress.com/assets/default/article/2025/02/24/article_1740379993.pdf
 
-6. О прозрачности
-https://courses.ece.ucsb.edu/ECE151/151_S14Moser/Files/HW1-sol.pdf
+6. Distributed System Basics: Why They're Hard
+https://systemdr.substack.com/p/distributed-system-basics-why-theyre
 
+ 
 # Распределённые файловые системы GFS, HDFS
 
 HDFS Architecture and Scalability 
