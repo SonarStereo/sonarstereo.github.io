@@ -130,6 +130,19 @@ int main() {
 }
 ~~~
 
+## Битовые операции
+* сдвиг налево на отрицательное чиcло или на число, большее размера переменной - undefined behaviour
+* сдвиг и integral promotion
+* интересный алгоритм подсчёта битовых единиц - алгоритм Кернигана
+
+[Weird integral promotions with left shift operator](https://stackoverflow.com/questions/16880187/weird-integral-promotions-with-left-shift-operator) 
+
+[Bit twiddling hacks](https://graphics.stanford.edu/~seander/bithacks.html)
+
+[Слайды - операции с двоичными числами](https://ee.usc.edu/~redekopp/cs356/slides/CS356Unit2_IntegerOperations.pdf)
+
+[Дополнение до 2 (two-complement) - представление отрицательных чисел](https://www.geeksforgeeks.org/digital-logic/twos-complement/)
+
 ## Посимвольный ввод-вывод (getchar/putchar)
 ~~~c
 int getchar(void);
