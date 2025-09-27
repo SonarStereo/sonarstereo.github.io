@@ -1,6 +1,40 @@
 
 # Техноблог
 
+## Техноблоги
+
+Camera basics (блог компании Opto Engineering)
+https://www.opto-e.com/en/basics/camera-basics
+
+Блог Железный пепелац 
+https://lead-pepelats.ru/blog/calculate-obscura-for-solarography
+
+Блог компании Lucid Vision Labs
+https://thinklucid.com/tech-briefs/understanding-digital-image-sensors
+
+Блог компании Dewesoft
+https://dewesoft.com/blog/how-aerospace-telemetry-works
+
+Блог ThinkAutonomous
+https://www.thinkautonomous.ai/blog/ransac-algorithm/
+
+
+## Алгоритм ICP
+
+Salient Preprocessing: Robotic ICP Pose Estimation Based on SIFT Features
+https://www.mdpi.com/2075-1702/11/2/157
+
+обзорные слайды
+Iterative Closest Point: Point Cloud Alignment 
+https://www.ipb.uni-bonn.de/html/teaching/msr2-2020/sse2-03-icp.pdf
+
+ICP Algorithm: Theory, Practice And Its SLAM-oriented Taxonomy
+https://arxiv.org/pdf/2206.06435
+
+LIDAR Odometry with ICP
+http://andrewjkramer.net/blog/
+
+
 ## Обзор по трёхмерному зрению (2022) 
 [Трехмерное распознавание:текущее состояние и тенденции](https://sciencejournals.ru/issues/auttel/2022/vol_2022/iss_4/AutTel_2204002Orlova/AutTel_2204002Orlova-site.html)
 
@@ -21,6 +55,11 @@
 
 
 ## RANSAC и варианты
+
+[RANSAC for Robotic Applications: A Survey (картинка с эпиполярной геометрией)]
+https://www.mdpi.com/1424-8220/23/1/327
+
+[Efficient Ransac]https://www.hinkali.com/Education/PointCloud.pdf
 
 [MLESAC: A new robust estimator with application
  to estimating image geometry](https://www.robots.ox.ac.uk/~vgg/publications/2000/Torr00/torr00.pdf)
