@@ -290,6 +290,25 @@ int main() {
 }
 ~~~
 
+## Динамическое выделение памяти
+
+Основные функции
+~~~c
+int* a0 = (int*)calloc(10, sizeof(int));
+int* a = (int*)malloc(2 * sizeof(int));
+a = (int*)realloc(a, 3 * sizeof(int));
+
+free(a0);
+free(a);
+~~~
+
+Быстрое заполнение памяти:
+~~~c
+//void * memset ( void * ptr, int value, size_t num );
+~~~
+
+Можно освободить память даже через другой указатель!
+
 ## Битовые операции
 
 Обмен значений c помощью XOR
