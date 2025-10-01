@@ -1,6 +1,25 @@
 
 # Техноблог
 
+## Курсы по проективной геометрии, SLAM и машинному зрению
+
+📅 01.10.2025
+
+Отличный вводный текст по ПГ текст, всего на 6 страниц
+[A primer in projective geometry](https://web.cs.ucla.edu/~soatto/courses/cs174/projective.pdf)
+
+[Image processing and computer vision (NL) ](https://staff.fnwi.uva.nl/r.vandenboomgaard/ComputerVision/index.html)
+
+[Vorlesung Computer Vision](https://www.ismll.uni-hildesheim.de/lehre/cv-17s/script/)
+
+  	01. Projective Geometry	
+   	02. Projective Geometry in 3D		
+   	03. Estimating 2D Transformations	
+   	04. Interest Points	
+   	05. Simultaneous Localization and Mapping 
+
+[MIT vision book](https://visionbook.mit.edu/)
+
 ## AutoML
 
 📅 30.09.2025
@@ -85,15 +104,6 @@ https://www.mdpi.com/1424-8220/23/1/327
 
 https://dzen.ru/a/Zydjl7KvZDxs99jw
 
-## Курс по проективной геометрии и SLAM
-
-[Vorlesung Computer Vision](https://www.ismll.uni-hildesheim.de/lehre/cv-17s/script/)
-
-  	01. Projective Geometry	
-   	02. Projective Geometry in 3D		
-   	03. Estimating 2D Transformations	
-   	04. Interest Points	
-   	05. Simultaneous Localization and Mapping 
     
 ## Прямая и обратная кинематика
 
