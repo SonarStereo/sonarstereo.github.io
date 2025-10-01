@@ -5,7 +5,7 @@
 
 📅 01.10.2025
 
-Отличный вводный текст по ПГ текст, всего на 6 страниц
+Отличный вводный текст по ПГ, всего на 6 страниц
 [A primer in projective geometry](https://web.cs.ucla.edu/~soatto/courses/cs174/projective.pdf)
 
 [Image processing and computer vision (NL) ](https://staff.fnwi.uva.nl/r.vandenboomgaard/ComputerVision/index.html)
