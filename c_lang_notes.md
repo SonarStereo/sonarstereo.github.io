@@ -330,10 +330,16 @@ free(ptr);//ошибка, если не сделать ptr--
 
 ## Работа со строками
 
-* fgets(), gets()
-* scanf(), sscanf()
-* atoi(), atol()
-* strtol()
+Считывание строк
+* gets(char *s) - плохая функция, буфер s может переполниться, лучше использовать fgets(char *str, int size, FILE *stream); 
+* scanf("%s", buffer) - тоже возможно переполнение буфера 
+
+Дальнейшие функции полезны, например, при разборе argv
+
+Преобразование из строки в число 
+* sscanf()
+* int atoi(const char *s), long atol(const char *s), long long atoll(const char *s) - ASCII to ...; нет обработки ошибок 
+* long int strtol(const char *nptr, char **endptr, int base), ещё strtoll; если nptr=*endptr, то ни одного символа не было преобразовано
 
 ## valgrind
 
