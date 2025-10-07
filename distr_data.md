@@ -8,6 +8,8 @@
 
 [Все еще измеряете latency в персентилях?](https://habr.com/ru/articles/590287/)
 
+[Latency percentiles for load testing analysis](https://gatling.io/blog/latency-percentiles-for-load-testing-analysis)
+
 [SLA is the new CAP](https://mikemybytes.com/2021/07/20/sla-is-the-new-cap/)
 
 [Мониторинг начинается с метрик, или Как не сделать из алертов белый шум](https://www.itsumma.ru/blog/alerts)
