@@ -5,7 +5,25 @@
 
 📅 11.10.2025
 
+Слайды
+
+Iterative Closest Point: Point Cloud Alignment 
+https://www.ipb.uni-bonn.de/html/teaching/msr2-2020/sse2-03-icp.pdf
+
+Блоги
+
+LIDAR Odometry with ICP
+http://andrewjkramer.net/blog/
+
+Статьи
+
 [Research on the Improved ICP Algorithm for LiDAR Point Cloud Registration](https://www.mdpi.com/1424-8220/25/15/4748)
+
+Salient Preprocessing: Robotic ICP Pose Estimation Based on SIFT Features
+https://www.mdpi.com/2075-1702/11/2/157
+
+ICP Algorithm: Theory, Practice And Its SLAM-oriented Taxonomy
+https://arxiv.org/pdf/2206.06435
 
 
 ## RANSAC, сегментация, примитивы
@@ -89,21 +107,6 @@ https://dewesoft.com/blog/how-aerospace-telemetry-works
 Блог ThinkAutonomous
 https://www.thinkautonomous.ai/blog/ransac-algorithm/
 
-
-## Алгоритм ICP
-
-Salient Preprocessing: Robotic ICP Pose Estimation Based on SIFT Features
-https://www.mdpi.com/2075-1702/11/2/157
-
-обзорные слайды
-Iterative Closest Point: Point Cloud Alignment 
-https://www.ipb.uni-bonn.de/html/teaching/msr2-2020/sse2-03-icp.pdf
-
-ICP Algorithm: Theory, Practice And Its SLAM-oriented Taxonomy
-https://arxiv.org/pdf/2206.06435
-
-LIDAR Odometry with ICP
-http://andrewjkramer.net/blog/
 
 
 ## Обзор по трёхмерному зрению (2022) 
