@@ -30,7 +30,23 @@ https://arxiv.org/pdf/2206.06435
 
 📅 11.10.2025
 
-Статьи
+Статьи о RANSAC
+
+[RANSAC Traditional Approaches](https://cmp.felk.cvut.cz/cvpr2020-ransac-tutorial/presentations/RANSAC-CVPR20-Chum.pdf) 
+
+[Random Sample Consensus Explained](https://www.baeldung.com/cs/ransac)
+
+Статьи о вариантах RANSAC
+
+[Efficient Ransac]https://www.hinkali.com/Education/PointCloud.pdf
+
+[MLESAC: A new robust estimator with application
+ to estimating image geometry](https://www.robots.ox.ac.uk/~vgg/publications/2000/Torr00/torr00.pdf)
+
+Статьи о RANSAC в робототехнике
+
+[RANSAC for Robotic Applications: A Survey (картинка с эпиполярной геометрией)]
+https://www.mdpi.com/1424-8220/23/1/327
 
 [An Onboard Point Cloud Semantic Segmentation System for Robotic Platforms](https://www.mdpi.com/2075-1702/11/5/571)
 
@@ -128,22 +144,6 @@ https://www.thinkautonomous.ai/blog/ransac-algorithm/
   * с локальными корреляциями (среди них - графовые)
 
 
-## RANSAC и варианты
-
-[RANSAC for Robotic Applications: A Survey (картинка с эпиполярной геометрией)]
-https://www.mdpi.com/1424-8220/23/1/327
-
-[Efficient Ransac]https://www.hinkali.com/Education/PointCloud.pdf
-
-[MLESAC: A new robust estimator with application
- to estimating image geometry](https://www.robots.ox.ac.uk/~vgg/publications/2000/Torr00/torr00.pdf)
-
-[RANSAC Traditional Approaches](https://cmp.felk.cvut.cz/cvpr2020-ransac-tutorial/presentations/RANSAC-CVPR20-Chum.pdf) 
-
-[Random Sample Consensus Explained](https://www.baeldung.com/cs/ransac)
-
-
-
 ## Животные и восприятие окружающего
 
 4 необычных органа чувств в природе, которых нет у человека
@@ -220,4 +220,4 @@ ollama: chat & build with open models
 На практике это позволило добиться впечатляющих результатов. На квантовом симуляторе Fujitsu и 64-кубитном квантовом компьютере, созданном в сотрудничестве с RIKEN, ученые показали, что расчет движений человекоподобного робота с 17 суставами стал не только быстрее, но и гораздо точнее. Если раньше подобные вычисления занимали около получаса и требовали упрощения модели, теперь робот может двигаться более реалистично и плавно.
 
 💡 *т.е внешний вычислитель можно привлечь для расчёта движения робота-гуманоида*
-# Ссылки
+
