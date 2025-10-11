@@ -1,6 +1,49 @@
 
 # Техноблог
 
+## ICP, выравнивание
+
+📅 11.10.2025
+
+[Research on the Improved ICP Algorithm for LiDAR Point Cloud Registration](https://www.mdpi.com/1424-8220/25/15/4748)
+
+
+## RANSAC, сегментация, примитивы
+
+📅 11.10.2025
+
+Статьи
+
+[An Onboard Point Cloud Semantic Segmentation System for Robotic Platforms](https://www.mdpi.com/2075-1702/11/5/571)
+
+[Robot-assisted mobile scanning for automated 3D reconstruction and point cloud semantic segmentation of building interiors](https://www.sciencedirect.com/science/article/abs/pii/S0926580523002091)
+
+Программы
+
+[Plane fitting with RANSAC (salykova)](https://github.com/salykova/ransac/tree/main)
+
+Запросы
+
+robot point cloud segmentation
+
+## Облака точек и нейросети
+
+📅 11.10.2025
+
+[Implementing PointNet for point cloud segmentation in the heritage context](https://www.nature.com/articles/s40494-022-00844-w)
+
+[PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](https://stanford.edu/~rqi/pointnet2/)
+
+
+## Обзоры по облакам точек
+
+📅 11.10.2025
+
+[POINT CLOUD PROCESSING USING LINEAR ALGEBRA AND GRAPH THEORY](https://www.cs.kuleuven.be/publicaties/doctoraten/tw/TW2007_05.pdf)
+
+[3D Point Cloud Processing and Learning for Autonomous Driving](https://arxiv.org/abs/2003.00601)
+
+
 ## Курсы по проективной геометрии, SLAM и машинному зрению
 
 📅 01.10.2025
