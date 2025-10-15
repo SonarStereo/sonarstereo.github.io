@@ -1,22 +1,6 @@
 
 # Техноблог
 
-## Простые проекты с компьютерным зрением
-
-📅 11.10.2025
-
-OpenCV и обработка спутниковых изображений [ссылка](https://mikitabelikau.wordpress.com/2017/07/09/use-open-cv-for-satellite-images/)
-
-Detect vegetation using opencv on satellite images [ссылка](https://stackoverflow.com/questions/69000503/detect-vegetation-using-opencv-on-satellite-images)
-
-Counting coins using OpenCV [ссылка](https://stackoverflow.com/questions/58794362/counting-coins-using-opencv)
-
-Rudimentary Computer Vision Techniques for Python Bot [ссылка](https://stackoverflow.com/questions/15685894/rudimentary-computer-vision-techniques-for-python-bot)
-
-Используем Computer Vision для получения €6,147,455 за ночь во внутриигровой валюте  [ссылка](https://habr.com/ru/articles/708618)
-
-Использование компьютерного зрения для игры в покер [ссылка](https://habr.com/ru/articles/736190)
-
 ## ICP, выравнивание
 
 📅 11.10.2025
