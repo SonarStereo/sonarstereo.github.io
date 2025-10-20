@@ -1,10 +1,19 @@
 
 # Техноблог
 
+## Железки
+:pushpin: Зрительный модуль DFRobot HUSKYLENS с дисплеем
+(работает c Arduino, Raspberry Pi)   
+отслеживание линий?   
+[ссылка](https://supereyes.ru/catalog/Datchiki_arduino/dfrobot_huskylens)
+
 ## Курсы по компьютерном зрению
 
 [Страница](https://szeliski.org/Book/1stEdition.htm) книги Computer Vision: Algorithms and Applications (1е издание). Там
 же - большая подборка американских курсов по компьютерному зрению
+
+Репозиторий курса "Глубокое обучение в компьютерном зрении" (М.В.Ронкин, УРФУ)    
+[ссылка](https://github.com/MVRonkin/Computer-Vision-Course_lec-practice)
 
 ## ICP, выравнивание
 
