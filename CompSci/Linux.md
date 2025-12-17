@@ -35,3 +35,7 @@ df -kh
 sudo journalctl --vacuum-size=500M
 ~~~
 
+# Информация
+[Linux Device Drivers](https://lwn.net/Kernel/LDD3/)   
+[Linux Kernel Labs Бухарест](https://linux-kernel-labs.github.io/refs/heads/master/)   
+
