@@ -37,5 +37,6 @@ sudo journalctl --vacuum-size=500M
 
 # Информация
 [Linux Device Drivers](https://lwn.net/Kernel/LDD3/)   
+[Building Embedded Linux Systems](https://www.esys.ir/Files/Ref_Books/Linux/esys.ir_Building.Embedded.Linux.Systems.2nd.Edition.pdf)    
 [Linux Kernel Labs Бухарест](https://linux-kernel-labs.github.io/refs/heads/master/)   
 
