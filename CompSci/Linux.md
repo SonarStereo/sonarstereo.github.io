@@ -1,5 +1,26 @@
+# Загрузка 
+
+Микрокод
+* BIOS
+* UEFI
+
+Загрузчики
+* GRUB
+* syslinux (лёгкий)
+* U-Boot (для embedded)
+
 # Диск
 
+## Устройство
+
+* контроллер
+* DMA
+* интерфейсы SATA, NVME, IDE
+* сектора (512 байт или 4 Кб), цилиндры
+* группа секторов - кластер, размер определяется при форматировании
+* LBA - logical block
+
+  
 ## Иерархия папок
 File hierarchy standard (FHS)
 
@@ -35,6 +56,15 @@ df -kh
 sudo journalctl --vacuum-size=500M
 ~~~
 
+
+  
+# Сборка образа
+Минимум
+* загрузчик
+* сжатое ядро vmlinuz
+* образ корневой системы initrd/initramfs
+
+  
 # Информация
 [Linux Device Drivers](https://lwn.net/Kernel/LDD3/)   
 [Building Embedded Linux Systems](https://www.esys.ir/Files/Ref_Books/Linux/esys.ir_Building.Embedded.Linux.Systems.2nd.Edition.pdf)    
