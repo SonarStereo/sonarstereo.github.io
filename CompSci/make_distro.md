@@ -15,6 +15,11 @@ fdisk image.img
 mkfs.vfat -F 32 image.img
 ~~~
 
+Создание первичного раздела FAT32
+~~~bash
+fdisk image.img << EOF n p 1 t c w EOF
+~~~
+
 Инсталлируем загрузчик syslinux в файл образа
 ~~~bash
 syslinux -install image.img
@@ -30,6 +35,13 @@ mount -o loop image.img /tmp/img
 umount /tmp/img
 ~~~
 
+# Просмотр, диагностика
+
+Посмотреть содержимое iso - достаточно просто примонтировать его как loop-устройство куда-нибудь в ФС: 
+~~~bash
+sudo mount -o loop /path/to/yourfile.iso /tmp/iso
+~~~
+
 # QEMU
 
 Загрузка с виртуального диска
@@ -37,8 +49,19 @@ umount /tmp/img
 qemu-system-i386 -hda image.img
 ~~~
 
-Загрузка с CD ROM, данные - на образе жёсткого диска
+Загрузка FreeDOS с CD ROM, данные - на образе жёсткого диска
+~~~bash
+qemu-system-i386 -drive file=image.img -cdrom FD14LIVE.iso -boot d
+~~~
 
 # Ссылки
 [Creating disk image with msdos partition table and fat32](https://unix.stackexchange.com/questions/771277/creating-disk-image-with-msdos-partition-table-and-fat32)   
 [Where to get vmlinuz and initrd.gz files](https://www.linuxquestions.org/questions/debian-26/where-to-get-vmlinuz-and-initrd-gz-files-4175628735/)
+
+[KolibriOS](http://old-dos.ru/index.php?page=files&mode=files&do=show&id=856)   
+написана энтузиастами из СНГ полностью на ассемблере
+
+[Minimal Linux Live](https://github.com/ivandavidov/minimal)   
+маленький Линукс, пошаговая компиляция - сначала ядро, потом BusyBox, glibc, создание initramfs;    
+процесс сборки описан в
+[DAO MLL](https://github.com/ivandavidov/minimal/blob/master/docs/the_dao_of_minimal_linux_live.txt)
