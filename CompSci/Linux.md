@@ -1,3 +1,8 @@
+Установка ncurses (пригодится для отображения меню при компиляции ядра с menuconfig)
+~~~bash
+sudo apt-get install libncurses-dev
+~~~
+
 Посмотреть информацию о процессе с PID 1:
 ~~~bash
 ps -q 1
