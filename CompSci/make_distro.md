@@ -46,9 +46,9 @@ sudo mount -o loop /path/to/yourfile.iso /tmp/iso
 ~~~
 
 # Tiny Core Linux
-[Форум](forum.tinycorelinux.net)
-[How to make a legacy bios/uefi dual boot usb stick with syslinux](https://forum.tinycorelinux.net/index.php/topic,20939.0.html)
-[Howto make a legacy bios/uefi dual boot usb stick with grub2](https://forum.tinycorelinux.net/index.php/topic,19364.0.html)
+[Форум](forum.tinycorelinux.net)   
+[How to make a legacy bios/uefi dual boot usb stick with syslinux](https://forum.tinycorelinux.net/index.php/topic,20939.0.html)   
+[Howto make a legacy bios/uefi dual boot usb stick with grub2](https://forum.tinycorelinux.net/index.php/topic,19364.0.html)   
 
 
 # DOS
