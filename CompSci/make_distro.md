@@ -47,6 +47,7 @@ sudo mount -o loop /path/to/yourfile.iso /tmp/iso
 
 # Tiny Core Linux
 [Форум](forum.tinycorelinux.net)   
+[Основные файлы: vmlinuz, core.gz, rootfs, modules](http://tinycorelinux.net/14.x/x86/release/distribution_files/)   
 [How to make a legacy bios/uefi dual boot usb stick with syslinux](https://forum.tinycorelinux.net/index.php/topic,20939.0.html)   
 [Howto make a legacy bios/uefi dual boot usb stick with grub2](https://forum.tinycorelinux.net/index.php/topic,19364.0.html)   
 
