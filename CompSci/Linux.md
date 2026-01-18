@@ -1,5 +1,9 @@
-Утилита `dmesg`   
-просмотр и управление кольцевым буфером (ring buffer) ядра
+Скачиваем все файлы в директории   
+~~~bash
+wget --recursive --no-parent http://tinycorelinux.net/14.x/x86/release/distribution_files/
+~~~
+
+Утилита `dmesg`  - просмотр и управление кольцевым буфером (ring buffer) ядра
 
 Просмотр системных журналов   
 ~~~bash
