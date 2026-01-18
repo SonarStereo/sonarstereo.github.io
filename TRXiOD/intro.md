@@ -4,6 +4,14 @@
 * SSD, NVME
 * Смартфоны - NAND
 
+<!---
+![Alt text](./Pic/flash-mem-tree.png "Optional title")
+-->
+
+<p align="center">
+  <img src="./Pic/flash-mem-tree.png" />
+</p>
+
 # Файловые системы
 
 Локальные ФС (жёсткие диски, SSD, USB и т.д.) для nix-систем:      
