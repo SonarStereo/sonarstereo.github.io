@@ -103,6 +103,94 @@ int a=2, b=4;
 swap(a,b);
 ```
 
+## Пространства имён
+
+пример:
+```c
+namespace N{
+    int f() {print("Hello");}
+    } 
+```
+
+💡 точка с запятой после описания namespace не ставится
+
+вызов функции f():
+```c
+N::f() ;
+```
+
+using для одной функции:
+```c
+using std::cout;
+```
+
+вложение пространств, описание члена пространства снаружи:
+```cpp
+// пример с cppreference.com
+
+namespace Q
+{
+    namespace V   // V is a member of Q, and is fully defined within Q
+    { // namespace Q::V { // C++17 alternative to the lines above
+        class C { void m(); }; // C is a member of V and is fully defined within V
+                               // C::m is only declared
+        void f(); // f is a member of V, but is only declared here
+    }
+ 
+    void V::f() // definition of V's member f outside of V
+                // f's enclosing namespaces are still the global namespace, Q, and Q::V
+    {
+        extern void h(); // This declares ::Q::V::h
+    }
+ 
+    void V::C::m() // definition of V::C::m outside of the namespace (and the class body)
+                   // enclosing namespaces are the global namespace, Q, and Q::V
+    {}
+}
+
+```
+
+
+вложение пространств, описание члена пространства снаружи
+```cpp
+// пример с cppreference.com
+namespace Q
+{
+    namespace V   // V is a member of Q, and is fully defined within Q
+    { // namespace Q::V { // C++17 alternative to the lines above
+        class C { void m(); }; // C is a member of V and is fully defined within V
+                               // C::m is only declared
+        void f(); // f is a member of V, but is only declared here
+    }
+ 
+    void V::f() // definition of V's member f outside of V
+                // f's enclosing namespaces are still the global namespace, Q, and Q::V
+    {
+        extern void h(); // This declares ::Q::V::h
+    }
+ 
+    void V::C::m() // definition of V::C::m outside of the namespace (and the class body)
+                   // enclosing namespaces are the global namespace, Q, and Q::V
+    {}
+}
+
+```
+
+## Пространство имён `std`
+
+* функции стандартной библиотеки погружены в пространство `std`
+* чтобы не писать каждый раз **std::имя_функции* можно использовать директиву `using`
+
+директива `using` для пространства имён целиком:
+```c
+using namespace std ;
+```
+
+директива `using` для одной функции
+```c
+using namespace std::cout ;
+```
+
 
 
 ## Литература
