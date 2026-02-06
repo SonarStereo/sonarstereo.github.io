@@ -1,10 +1,112 @@
 # Язык С++
 
 ## Перегрузка функций
-## Смешение кода и данных
-## Параметры функций по умолчанию
-## Исключения
+```c++
+#include <cstdio>
+#include <iostream>
+#include <math.h>
+#include <string>
 
+// Prototype three print functions.
+int print(const char *s);
+int print(double dvalue);            
+int print(double dvalue, int prec);  // prec = precision.
+
+using namespace std;
+int main(int argc, char *argv[])
+{
+    const double d = 893094.2987;
+
+    // These calls to print invoke print( char *s ).
+    print("This program requires one argument.");
+    print("The argument specifies the number of");
+    print("digits precision for the second number");
+    print("printed.");
+
+    // Invoke print( double dvalue ).
+    print(d);
+
+    // Invoke print( double dvalue, int prec ).
+    print(d, 3);
+
+    return 0;
+}
+
+// Print a string.
+int print(const char* s)
+{
+    cout << "1 " << s << endl;
+    return cout.good();
+}
+
+// Print a double in default precision.
+int print(double dvalue)
+{
+    cout << "2 " << dvalue << endl;
+    return cout.good();
+}
+
+//  Print a double in specified precision.
+//  Positive numbers for precision indicate how many digits
+//  precision after the decimal point to show. Negative
+//  numbers for precision indicate where to round the number
+//  to the left of the decimal point.
+int print(double dvalue, int prec)
+{
+    // Use table-lookup for rounding/truncation.
+    static const double rgPow10[] = {
+        10E-7, 10E-6, 10E-5, 10E-4, 10E-3, 10E-2, 10E-1,
+        10E0, 10E1,  10E2,  10E3,  10E4, 10E5,  10E6 };
+    const int iPowZero = 6;
+
+    // If precision out of range, just print the number.
+    if (prec < -6 || prec > 7)
+    {
+        return print(dvalue);
+    }
+    // Scale, truncate, then rescale.
+    dvalue = floor(dvalue / rgPow10[iPowZero - prec]) *
+        rgPow10[iPowZero - prec];
+    cout << "3 " << dvalue << endl;
+    return cout.good();
+}
+
+```
+
+## Смешение кода и данных
+
+## Функции с параметрами по умолчанию
+```cpp
+// Function declaration with a default argument for 'count'
+void printMessage(string message, int count = 1) {
+    for (int i = 0; i < count; ++i) {
+        cout << message << endl;
+    }
+}
+```
+
+## Исключения
+```cpp
+#include <iostream>
+#include <stdexcept>
+
+void check_value(int value) {
+    if (value > 100) {
+        throw std::invalid_argument("Value cannot be greater than 100");
+    }
+    std::cout << "Value is " << value << std::endl;
+}
+
+int main() {
+    try {
+        check_value(256); 
+    } catch (const std::invalid_argument& e) {
+        std::cerr << "Caught exception: " << e.what() << std::endl;
+        return -1;
+    }
+    return 0;
+}
+```
 ## История
 
 * разработчик - Б.Страуструп (1979)
